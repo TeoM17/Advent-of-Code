@@ -16,5 +16,5 @@ for each_line in file.readlines():
         total += int(each_line)
 print(output[0])
 
-# checking if program compiles quickly
-print("Compiled in %s seconds" % (time.time() - start_time))
+# printing program runtime in seconds
+print("Runtime in %s seconds" % (time.time() - start_time))
